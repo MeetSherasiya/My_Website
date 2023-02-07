@@ -1,0 +1,14 @@
+{
+    "python.formatting.provider": "autopep8",
+    "cmake.configureOnOpen": false,
+    "cmake.sourceDirectory": "${workspaceFolder}/meetu",
+    "sqltools.connections": [
+        {
+            "previewLimit": 100,
+            "driver": "SQLite",
+            "name": "contact book",
+            "database": "${workspaceFolder:python}/Django Projects/Phonebook Project/contactbook/db.sqlite3"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
