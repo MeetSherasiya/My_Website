@@ -85,7 +85,7 @@ h6 {
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 120px;
+  width: 180px;
   border: 8px solid #2c2f3f;
 }
 
@@ -743,13 +743,13 @@ section {
   overflow: hidden;
 }
 
-.testimonials .testimonial-item {
+.project .swiper-slide {
   box-sizing: content-box;
-  text-align: center;
   min-height: 320px;
+  width: auto;
 }
 
-.testimonials .testimonial-item .testimonial-img {
+.testimonials .testimonial-item p {
   width: 90px;
   border-radius: 50%;
   margin: 0 auto;
